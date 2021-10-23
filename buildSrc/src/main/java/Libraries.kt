@@ -10,6 +10,10 @@ object Libraries {
     const val loggingInterceptor = "com.squareup.okhttp3:logging-interceptor:${Versions.loggingInterceptor}"
     const val koin = "io.insert-koin:koin-android:${Versions.koin}"
     const val koinViewModel = "io.insert-koin:koin-androidx-viewmodel:${Versions.koin}"
-    const val koinScope = "io.insert-koin:koin0androidx-scope:${Versions.koin}"
+    const val koinScope = "io.insert-koin:koin-androidx-scope:${Versions.koin}"
     const val gsonConverter = "com.squareup.retrofit2:converter-gson:${Versions.gsonConverter}"
+    const val viewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycle}"
+    const val liveData = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycle}"
+    const val lifecycleCompiler = "androidx.lifecycle:lifecycle-compiler:${Versions.lifecycle}"
+    const val lifecycleKtx = "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.lifecycle}"
 }

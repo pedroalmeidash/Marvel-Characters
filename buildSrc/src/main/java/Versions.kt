@@ -10,4 +10,5 @@ object Versions {
     const val loggingInterceptor = "4.9.2"
     const val koin = "3.1.2"
     const val gsonConverter = "2.9.0"
+    const val lifecycle = "2.3.1"
 }

@@ -1,3 +1,4 @@
 rootProject.name = "Marvel"
 include ':app'
 include ':remote-data'
+include ':core'
