@@ -4,6 +4,7 @@
     <bytecodeTargetLevel target="1.7">
       <module name="Marvel-Characters.buildSrc" target="11" />
       <module name="Marvel.app" target="11" />
+      <module name="Marvel.home" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
