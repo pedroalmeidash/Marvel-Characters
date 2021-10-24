@@ -33,11 +33,16 @@ android {
 }
 
 dependencies {
+    implementation project(Modules.remoteData)
     implementation project(Modules.core)
+
     implementation(Libraries.appCompat)
     implementation(Libraries.ktxCore)
     implementation(Libraries.kotlin)
     implementation(Libraries.koinViewModel)
     implementation(Libraries.koin)
     implementation(Libraries.materialDesign)
+    implementation(Libraries.coroutines)
+    implementation(Libraries.retrofit)
+    implementation(Libraries.viewModel)
 }

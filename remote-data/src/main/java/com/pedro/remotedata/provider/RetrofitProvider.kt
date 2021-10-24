@@ -4,7 +4,7 @@ import okhttp3.OkHttpClient
 import retrofit2.Converter
 import retrofit2.Retrofit
 
-private const val BASE_URL = "https://developer.marvel.com/"
+private const val BASE_URL = "https://gateway.marvel.com/v1/public/"
 
 internal class RetrofitProvider(
     private val okHttpClient: OkHttpClient,
